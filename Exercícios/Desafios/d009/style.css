@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    transform: none;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
