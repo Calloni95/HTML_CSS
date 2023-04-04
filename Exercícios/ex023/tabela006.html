@@ -12,6 +12,7 @@
         table {
             border-collapse: collapse;
             position: relative;
+            border: 1px solid black;
         }
         caption {
             font-size: 1.2em;
@@ -28,10 +29,15 @@
         div#container {
             overflow-x: auto;
         }
-       thead>tr>th {
-        position: sticky;
-        top: 0;
-       }
+        .fixaColuna {
+            position: sticky;
+            top: 0;
+            left: 0;
+            border: 1px solid black;
+            background-color: white;
+    
+        }
+        
     </style>
 </head>
 <body>
